@@ -1,12 +1,7 @@
 /*
-Theme Name:     Refreshed Theme
-Theme URI:      http://refreshed.is/
-Description:    Modifications of Author for Refreshed
-Author:         Holstee
-Author URI:     http://holstee.com
-Template:       refreshed-wordpress
-Version:        0.1.0
+Theme Name:     Author Child Theme
+Description:    Make your modifications to Author in this child theme.
+Template:       author
 */
 
-@import url('../refreshed-wordpress/style.css');
-
+@import url('../author/style.css');
