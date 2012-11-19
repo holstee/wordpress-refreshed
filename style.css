@@ -1,0 +1,12 @@
+/*
+Theme Name:     Refreshed Theme
+Theme URI:      http://refreshed.is/
+Description:    Modifications of Author for Refreshed
+Author:         Holstee
+Author URI:     http://holstee.com
+Template:       refreshed-wordpress
+Version:        0.1.0
+*/
+
+@import url('../refreshed-wordpress/style.css');
+
