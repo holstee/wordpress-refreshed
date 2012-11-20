@@ -5,8 +5,6 @@ Author:         Dave Radparvar
 Template:       author
 */
 
-@import url('../author/style.css')
+@import url('../author/style.css');
 
-.header-wrapper {
-	display:none;
-}
+.header-wrapper {display:none;}
