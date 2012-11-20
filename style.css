@@ -6,10 +6,3 @@ Template:       author
 */
 
 @import url('../author/style.css')
-
-body {
-	background: #FCFCFC;
-}
-.header-wrapper {
-	display: none;
-}
