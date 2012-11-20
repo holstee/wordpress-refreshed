@@ -6,3 +6,7 @@ Template:       author
 */
 
 @import url('../author/style.css')
+
+.header-wrapper {
+	display:none;
+}
