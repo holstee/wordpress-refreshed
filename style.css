@@ -8,17 +8,19 @@ Template:       author
 @import url('../author/style.css');
 
 
-/* body */
-body {background: #FCFCFC;}
+/* background */
+body {background: #F5F5FA;}
+.scroll .slides {background: #F5F5FA;}
+#footer {background: #F5F5FA;}
 
 /* header */
 .header-wrapper {display:none;}
 .scroll .slides {background: #FCFCFC;}
 .flex-control-nav {display: none;}
-.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px;}
+.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; color:#474763;}
+.scroll-excerpt a {color: #9B9BC4;}
 
 /* font change */
-
 body{font-family: 'Asap', sans-serif;}
 h1, h2, h3, h4, h5, h6 {font-family: 'Asap', sans-serif;}
 .nav a {font-family: 'Asap', sans-serif;}
@@ -36,5 +38,51 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Asap', sans-serif;}
 .wpcf7 textarea {font-family: 'Asap', sans-serif;}
 .wpcf7-submit {font-family: 'Asap', sans-serif;}
 
-/* footer */
-#footer {background: #cccccc;}
+/* font title scroll a #687A8A */
+
+h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
+#content .entry-title a {color: #5F5F6E;}
+.logo-text a {color: #5F5F6E;} 
+.nav .current-menu-item a {color: #5F5F6E;}
+.secondary-menu li a {color: #5F5F6E;}
+.sub-title {color: #5F5F6E;}
+.next-prev {color: #5F5F6E;}
+.widget h2 {color: #5F5F6E;}
+.tagcloud a {color: #5F5F6E;}
+.scroll-excerpt a {color: #5F5F6E;}
+#comments-title {color: #5F5F6E;}
+.form-submit #submit {color: #5F5F6E;}
+.form-submit #submit:hover { background: #5F5F6E;}
+.fn a {color: #5F5F6E;}
+.post-nav a {color: #5F5F6E;}
+.tabs li.active a { background: #5F5F6E;}
+.recent-posts-widget li h3 a {color: #5F5F6E;}
+.recent-comments-widget .comment-avatar-right a {color: #5F5F6E;}
+.wpcf7 input:focus, .wpcf7 textarea:focus {background: #5F5F6E;}
+.wpcf7-submit {color: #5F5F6E;}
+.wpcf7-submit:hover { background: #5F5F6E;}
+
+/* font title scroll #6B6B6B */
+
+/* font footer tags #A7B5C1 */
+.intro {color: #A6A6BA;}
+.post .bar {color: #A6A6BA;}
+.bar .title {color: #A6A6BA;}
+.bar a {color: #A6A6BA;}
+.post blockquote p { color: #A6A6BA;}
+.follow-text, .follow-text a {color: #A6A6BA;}
+.scroll-post a {color: #A6A6BA;}
+#footer .copyright {color: #A6A6BA;}
+.recent-posts-widget li p {color: #A6A6BA;}
+.recent-comments-widget .comment-avatar-right {color: #A6A6BA;}
+
+/* other */
+#content .entry-title a:hover {color: #6A6A85;}
+
+/* font sidebar #8c99a4 */
+
+
+
+
+
+
