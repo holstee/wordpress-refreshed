@@ -15,9 +15,12 @@ body {background: #FCFCFC;}
 .header-wrapper {display:none;}
 .scroll .slides {background: #FCFCFC;}
 .flex-control-nav {display: none;}
+.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px;}
 
 /* font change */
-h1, h2, h3, h4, h5, h6 { font-family: 'Asap', sans-serif;}
+
+body{font-family: 'Asap', sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Asap', sans-serif;}
 .nav a {font-family: 'Asap', sans-serif;}
 .entry-title {font-family: 'Asap', sans-serif;}
 .sub-title {font-family: 'Asap', sans-serif;}
