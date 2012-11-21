@@ -17,7 +17,7 @@ body {background: #F5F5FA;}
 .header-wrapper {display:none;}
 .scroll .slides {background: #F5F5FA;}
 .flex-control-nav {display: none;}
-.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; }
+.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; margin-top:45px; }
 
 /* font change */
 body{font-family: 'Asap', sans-serif;}
