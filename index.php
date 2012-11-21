@@ -1,32 +1,47 @@
 <?php get_header(); ?>
 
-		<!-- excerpt scroller -->
-		<?php if ( of_get_option('of_show_excerpt_scroll') == 'yes' ) { ?>
-			<?php if(is_home()) { ?>
-				<div class="scroll">
-					<div class="flexslider">
-						<ul class="slides">
-							<?php query_posts('showposts='.of_get_option('of_excerpt_count')); ?>
-							<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-								<?php if (empty($post->post_password)) { ?>
-									<li>
-										<div class="scroll-excerpt">
-											Thoughts on <a href="http://refreshed.is/tagged/sustainability" title="Refreshed Sustainability">sustainability</a>, <a href="http://refreshed.is/tagged/design" title="Refreshed Design">design</a>, <a href="http://refreshed.is/tagged/travel" title="Refreshed Travel">travel</a>, <a href="http://refreshed.is/tagged/food" title="Refreshed Food">food</a> and finding your <a href="http://refreshed.is/tagged/passion" title="Refreshed Design">passion</a>, from the family at  <a href="http://holstee.com.com" title="Holstee">Holstee</a>.
-											<!--  <a href="<?php the_permalink(); ?>"><?php echo get_the_excerpt(); ?></a> -->
-										</div>
-										<!--<div class="scroll-post">
-											<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a> <?php _e('by','okay'); ?> <?php the_author_link(); ?>
-										</div> -->
-									</li>
-								<?php } ?>	
-							<?php endwhile; ?>
-							<?php endif; ?>
-							<?php wp_reset_query(); ?>
-						</ul>
-					</div>
-				</div>
-			<?php } ?>
-		<?php } ?>
+   
+<div class="scroll-excerpt">
+		Thoughts on <a href="http://refreshed.is/tagged/sustainability"
+		title="Refreshed Sustainability">sustainability</a>, <a
+		href="http://refreshed.is/tagged/design" title="Refreshed Design">design</a>,
+		<a href="http://refreshed.is/tagged/travel" title="Refreshed
+		Travel">travel</a>, <a href="http://refreshed.is/tagged/food" title="Refreshed
+		Food">food</a> and finding your <a href="http://refreshed.is/tagged/passion"
+		title="Refreshed Design">passion</a>, from the family at  <a
+		href="http://holstee.com.com" title="Holstee">Holstee</a>.
+	</div>
+    <!-- REMOVE excerpt scroller excerpt scroller         <?php if (
+of_get_option('of_show_excerpt_scroll') == 'yes' ) { ?>             <?php
+if(is_home()) { ?>                 <div class="scroll">
+<div class="flexslider">                         <ul class="slides">
+<?php query_posts('showposts='.of_get_option('of_excerpt_count')); ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php if (empty($post->post_password)) { ?>
+<li>                                         
+	<div class="scroll-excerpt">
+		Thoughts on <a href="http://refreshed.is/tagged/sustainability"
+		title="Refreshed Sustainability">sustainability</a>, <a
+		href="http://refreshed.is/tagged/design" title="Refreshed Design">design</a>,
+		<a href="http://refreshed.is/tagged/travel" title="Refreshed
+		Travel">travel</a>, <a href="http://refreshed.is/tagged/food" title="Refreshed
+		Food">food</a> and finding your <a href="http://refreshed.is/tagged/passion"
+		title="Refreshed Design">passion</a>, from the family at  <a
+		href="http://holstee.com.com" title="Holstee">Holstee</a>.
+	</div>
+</li>
+-- >
+<!--  <a href="<?php the_permalink(); ?>"><?php echo get_the_excerpt(); ?></a>-->       
+	
+<!--<div class="scroll-post">                                             <a
+href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php
+the_title(); ?></a> <?php _e('by','okay'); ?> <?php the_author_link(); ?>
+</div> -->  
+	
+<?php } ?>                               <?php endwhile; ?>
+<?php endif; ?>                             <?php wp_reset_query(); ?>
+</ul>                     </div>                 </div>             <?php } ?>
+<?php } ?>
 		
 		<div id="content">
 			<!-- conditional subtitles -->
