@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-		<div class="refreshedlogo" style="width:100%;">
+		<div class="refreshedlogo">
 			<a href="http://refreshed.is" title="Refreshed.is - Thoughts and findings from the family at Holstee"> 
 				<img src="http://refreshed.is/wp-content/themes/author-child/images/Refreshed_Logo.png" />
 			</a>

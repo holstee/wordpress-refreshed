@@ -17,7 +17,7 @@ body {background: #F5F5FA;}
 .header-wrapper {display:none;}
 .scroll .slides {background: #F5F5FA;}
 .flex-control-nav {display: none;}
-.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; margin-top:45px; float: right;width:90%;}
+.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; float: right;width:90%;}
 .refreshedlogo {width:10%; margin-top: 45px; margin-right:45px; float:left;}
 .refreshedlogo img {width:100%; float: left;}
 
