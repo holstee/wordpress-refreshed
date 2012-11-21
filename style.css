@@ -18,6 +18,8 @@ body {background: #F5F5FA;}
 .scroll .slides {background: #F5F5FA;}
 .flex-control-nav {display: none;}
 .scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; margin-top:45px; }
+.refreshedlogo {width:120px; margin-top: 45px; margin-right:45px; float:left;}
+.refreshedlogo img {100%;}
 
 /* font change */
 body{font-family: 'Asap', sans-serif;}

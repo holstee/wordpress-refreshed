@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
 
-		<div class="refreshedlogo" style="width:100px;">
+		<div class="refreshedlogo" style="width:100%;">
 			<a href="http://refreshed.is" title="Refreshed.is - Thoughts and findings from the family at Holstee"> 
 				<img src="http://refreshed.is/wp-content/themes/author-child/images/Refreshed_Logo.png" />
 			</a>
 		</div>
-		<div class="scroll-excerpt"></div>
+		<div class="scroll-excerpt">
 			Thoughts on <a href="http://refreshed.is/tagged/sustainability"
 			title="Refreshed Sustainability">sustainability</a>, <a
 			href="http://refreshed.is/tagged/design" title="Refreshed Design">design</a>,
