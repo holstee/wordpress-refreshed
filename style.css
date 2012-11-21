@@ -9,3 +9,6 @@ Template:       author
 
 .header-wrapper {display:none;}
 body {background: #FCFCFC;}
+.scroll .slides {background: #FCFCFC;}
+.flex-control-nav {display: none;}
+#footer {background: #cccccc;}

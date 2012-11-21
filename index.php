@@ -17,7 +17,7 @@ from the family at  <a href="http://holstee.com.com" title="Holstee">Holstee</a>
 										</div>
 										<!--<div class="scroll-post">
 											<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a> <?php _e('by','okay'); ?> <?php the_author_link(); ?>
-										</div> --> ?>
+										</div> -->
 									</li>
 								<?php } ?>	
 							<?php endwhile; ?>
