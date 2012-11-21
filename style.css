@@ -9,7 +9,7 @@ Template:       author
 
 
 /* background */
-body {background: #F5F5FA;}
+body {background: #F5F5FA; font:;}
 .scroll .slides {background: #F5F5FA;}
 #footer {background: #F5F5FA;}
 
@@ -17,14 +17,15 @@ body {background: #F5F5FA;}
 .header-wrapper {display:none;}
 .scroll .slides {background: #F5F5FA;}
 .flex-control-nav {display: none;}
-.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; float: right;width:90%; margin-top:10px;}
-.refreshedlogo {width:10%; margin-top: 45px; margin-right:45px;}
-.refreshedlogo img {width:100%; float: left;}
+.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; float: right;width:87%; margin-top:10px;}
+.refreshedlogo {width:10%; margin-top: 45px;}
+.refreshedlogo img {width:100%; float: left; margin-right: 15%;}
 .headerlogo {height: 100%}
 
+/* content */
 
 /* font change */
-body{font-family: 'Asap', sans-serif;}
+body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 h1, h2, h3, h4, h5, h6 {font-family: 'Asap', sans-serif;}
 .nav a {font-family: 'Asap', sans-serif;}
 .entry-title {font-family: 'Asap', sans-serif;}

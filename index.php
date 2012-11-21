@@ -1,22 +1,23 @@
 <?php get_header(); ?>
 
 		<div class="headerlogo">
-		<div class="refreshedlogo">
-			<a href="http://refreshed.is" title="Refreshed.is - Thoughts and findings from the family at Holstee"> 
-				<img src="http://refreshed.is/wp-content/themes/author-child/images/Refreshed_Logo.png" />
-			</a>
+			<div class="refreshedlogo">
+				<a href="http://refreshed.is" title="Refreshed.is - Thoughts and findings from the family at Holstee"> 
+					<img src="http://refreshed.is/wp-content/themes/author-child/images/Refreshed_Logo.png" />
+				</a>
+			</div>
+			<div class="scroll-excerpt">
+				Thoughts on <a href="http://refreshed.is/tagged/sustainability"
+				title="Refreshed Sustainability">sustainability</a>, <a
+				href="http://refreshed.is/tagged/design" title="Refreshed Design">design</a>,
+				<a href="http://refreshed.is/tagged/travel" title="Refreshed
+				Travel">travel</a>, <a href="http://refreshed.is/tagged/food" title="Refreshed
+				Food">food</a> and finding your <a href="http://refreshed.is/tagged/passion"
+				title="Refreshed Design">passion</a>, from the family at  <a
+				href="http://holstee.com.com" title="Holstee">Holstee</a>.
+			</div>
 		</div>
-		<div class="scroll-excerpt">
-			Thoughts on <a href="http://refreshed.is/tagged/sustainability"
-			title="Refreshed Sustainability">sustainability</a>, <a
-			href="http://refreshed.is/tagged/design" title="Refreshed Design">design</a>,
-			<a href="http://refreshed.is/tagged/travel" title="Refreshed
-			Travel">travel</a>, <a href="http://refreshed.is/tagged/food" title="Refreshed
-			Food">food</a> and finding your <a href="http://refreshed.is/tagged/passion"
-			title="Refreshed Design">passion</a>, from the family at  <a
-			href="http://holstee.com.com" title="Holstee">Holstee</a>.
-		</div>
-		</div>
+		<hr style="clear:both; border: 0px transparent solid;">
 <!-- REMOVE excerpt scroller excerpt scroller         
     <?php if (
 		of_get_option('of_show_excerpt_scroll') == 'yes' ) { ?>             <?php
