@@ -17,8 +17,7 @@ body {background: #F5F5FA;}
 .header-wrapper {display:none;}
 .scroll .slides {background: #FCFCFC;}
 .flex-control-nav {display: none;}
-.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; color:#474763;}
-.scroll-excerpt a {color: #9B9BC4;}
+.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; background:#FCFCFC; }
 
 /* font change */
 body{font-family: 'Asap', sans-serif;}
@@ -49,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
 .next-prev {color: #5F5F6E;}
 .widget h2 {color: #5F5F6E;}
 .tagcloud a {color: #5F5F6E;}
-.scroll-excerpt a {color: #5F5F6E;}
+.scroll-excerpt {color: #5F5F6E;}
 #comments-title {color: #5F5F6E;}
 .form-submit #submit {color: #5F5F6E;}
 .form-submit #submit:hover { background: #5F5F6E;}
@@ -71,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
 .bar a {color: #A6A6BA;}
 .post blockquote p { color: #A6A6BA;}
 .follow-text, .follow-text a {color: #A6A6BA;}
+.scroll-excerpt a {color: #A6A6BA;}
 .scroll-post a {color: #A6A6BA;}
 #footer .copyright {color: #A6A6BA;}
 .recent-posts-widget li p {color: #A6A6BA;}
