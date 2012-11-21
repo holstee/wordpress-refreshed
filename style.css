@@ -15,9 +15,9 @@ body {background: #F5F5FA;}
 
 /* header */
 .header-wrapper {display:none;}
-.scroll .slides {background: #FCFCFC;}
+.scroll .slides {background: #F5F5FA;}
 .flex-control-nav {display: none;}
-.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; background:#FCFCFC; }
+.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; }
 
 /* font change */
 body{font-family: 'Asap', sans-serif;}
@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
 
 /* other */
 #content .entry-title a:hover {color: #6A6A85;}
+.scroll-excerpt a:hover {color: #C3BEFA;}
 
 /* font sidebar #8c99a4 */
 
