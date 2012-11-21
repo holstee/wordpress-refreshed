@@ -7,8 +7,31 @@ Template:       author
 
 @import url('../author/style.css');
 
+
+/* body */
+body {background: #FCFCFC;}
+
+/* header */
 .header-wrapper {display:none;}
-body {background: #F0F3F4;}
 .scroll .slides {background: #FCFCFC;}
 .flex-control-nav {display: none;}
+
+/* font change */
+h1, h2, h3, h4, h5, h6 { font-family: 'Asap', sans-serif;}
+.nav a {font-family: 'Asap', sans-serif;}
+.entry-title {font-family: 'Asap', sans-serif;}
+.sub-title {font-family: 'Asap', sans-serif;}
+.intro {font-family: 'Asap', sans-serif;}
+.post blockquote {font-family: 'Asap', sans-serif;}
+.search-form .text {font-family: 'Asap', sans-serif;}
+.scroll-excerpt {font-family: 'Asap', sans-serif;}
+#respond input[type="text"], #respond textarea {font-family: 'Asap', sans-serif;}
+#respond textarea {font-family: 'Asap', sans-serif;}
+.form-submit #submit {font-family: 'Asap', sans-serif;}
+.post-nav {font-family: 'Asap', sans-serif;}
+.wpcf7 input[type="text"] {font-family: 'Asap', sans-serif;}
+.wpcf7 textarea {font-family: 'Asap', sans-serif;}
+.wpcf7-submit {font-family: 'Asap', sans-serif;}
+
+/* footer */
 #footer {background: #cccccc;}
