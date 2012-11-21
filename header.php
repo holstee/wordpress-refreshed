@@ -24,8 +24,11 @@
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	
-	<!-- bookmark icon -->
+	<!-- OLD bookmark icon 
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" />
+	-->
+	<!-- bookmark icon -->
+	<link rel="shortcut icon" href="http://refreshed.is/wp-content/themes/author-child/images/favicon.png" />
 	
 	<!-- main stylesheet -->
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
