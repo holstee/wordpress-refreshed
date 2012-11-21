@@ -17,9 +17,10 @@ body {background: #F5F5FA;}
 .header-wrapper {display:none;}
 .scroll .slides {background: #F5F5FA;}
 .flex-control-nav {display: none;}
-.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; float: right;width:90%;}
-.refreshedlogo {width:10%; margin-top: 45px; margin-right:45px; float:left;}
+.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; float: right;width:90%; margin-top:10px;}
+.refreshedlogo {width:10%; margin-top: 45px; margin-right:45px;}
 .refreshedlogo img {width:100%; float: left;}
+.headerlogo {height: 100%}
 
 
 /* font change */
