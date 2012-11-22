@@ -23,6 +23,9 @@ body {background: #F5F5FA;}
 .headerlogo {height: 100%}
 
 /* content */
+#main {width: 80%;}
+#content {width: 70%;}
+#sidebar {width: 25%;}
 
 /* font change */
 body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}

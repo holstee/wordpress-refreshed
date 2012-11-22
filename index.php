@@ -221,6 +221,7 @@
 				<?php if ('open' == $post->comment_status) { ?>
 				<div id="comment-jump" class="comments">
 					<?php comments_template(); ?>
+					<?php if (function_exists('facebook_comments')) facebook_comments(); ?>
 				</div>
 				<?php } ?>
 			<?php } ?>
