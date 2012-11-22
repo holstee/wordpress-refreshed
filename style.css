@@ -9,9 +9,9 @@ Template:       author
 
 
 /* background */
-body {background: #F5F5FA; font:;}
+body {background: #F5F5FA;}
 .scroll .slides {background: #F5F5FA;}
-#footer {background: #F5F5FA;}
+#footer {background: #F7F7F7;}
 
 /* header */
 .header-wrapper {display:none;}
@@ -85,9 +85,11 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
 #content .entry-title a:hover {color: #6A6A85;}
 .scroll-excerpt a:hover {color: #C3BEFA;}
 
-/* font sidebar #8c99a4 */
 
-
+/* for media screen */
+media="screen"
+media-queries.css:129@media only screen and (max-width: 767px)
+body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 
 
 

@@ -127,7 +127,7 @@
 									<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 									
 									<div class="title-meta">
-										<span><?php the_author_link(); ?></span> <span><a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a></span> <span><a href="<?php the_permalink(); ?>/#comment-jump" title="<?php the_title(); ?> comments"><?php comments_number(__('No Comments','okay'),__('1 Comment','okay'),__( '% Comments','okay') );?></a></span>
+										<span><!--<?php the_author_link(); ?>--><?php the_author_posts_link(); ?></span> <span><a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a></span> <span><a href="<?php the_permalink(); ?>/#comment-jump" title="<?php the_title(); ?> comments"><?php comments_number(__('No Comments','okay'),__('1 Comment','okay'),__( '% Comments','okay') );?></a></span>
 									</div>
 								</div>
 								
