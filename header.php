@@ -28,7 +28,7 @@
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" />
 	-->
 	<!-- bookmark icon -->
-	<link rel="shortcut icon" href="http://refreshed.is/wp-content/themes/author-child/images/favicon.ico" />
+	<link rel="shortcut icon" href="http://refreshed.is/wp-content/themes/author-child/images/favicon.png" />
 	
 	<!-- main stylesheet -->
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />

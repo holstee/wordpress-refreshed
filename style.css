@@ -34,9 +34,8 @@ body {background: #F5F5FA;}
 .socialbox p {margin-left: 50px; padding-top: 8px;}
 .socialbox p a {color:#666;}
 .socialbox p a:hover {color: #A6A6BA;}
-.soarrow a {display: none;}
-.socialbox li:hover .soarrow {display:block;}
-.socialbox a:hover  .soarrow a {display:block;}
+.socialbox li .soarrow {display: none;}
+.socialbox li:hover .soarrow {display:inline;}
 
 
 /* font change */
