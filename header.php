@@ -60,7 +60,12 @@
 	</style>
 
 	<!-- javascript for fixedside -->
-	$(function() {
+
+	<script type='text/javascript'>
+//<![CDATA[ 
+
+  /* JavaScript code will go here */
+  $(function() {
     // Stick the #fixedside to the top of the window
     var nav = $('#fixedside');
     var navHomeY = nav.offset().top;
@@ -87,6 +92,10 @@
         }
     });
 });
+
+//]]>  
+</script>
+	
 </head>
 
 <body <?php body_class(); ?>>
