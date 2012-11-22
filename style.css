@@ -28,9 +28,13 @@ body {background: #F5F5FA;}
 #sidebar {width: 25%;}
 
 /* social sidebar button */
+.socialbox ul {margin-left: 0 !important}
 .socialbox ul li {margin-bottom: 15px; padding-bottom: 10px; border-bottom: solid 1px #E6E6E6; min-height: 40px; list-style: none;}
 .socialbox img {float: left;}
 .socialbox p {margin-left: 50px; padding-top: 8px;}
+.socialbox p a {color:#666;}
+.soarrow a {display: none;}
+.soarrow a:hover {}
 
 /* font change */
 body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
