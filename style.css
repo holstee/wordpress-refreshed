@@ -36,6 +36,7 @@ body {background: #F5F5FA;}
 .socialbox p a:hover {color: #A6A6BA;}
 .socialbox li .soarrow {display: none;}
 .socialbox li:hover .soarrow {display:inline;}
+#fixedside {height: 600px;}
 
 
 /* font change */
