@@ -33,8 +33,8 @@ body {background: #F5F5FA;}
 .socialbox img {float: left;}
 .socialbox p {margin-left: 50px; padding-top: 8px;}
 .socialbox p a {color:#666;}
-.soarrow a {display: none;}
-.soarrow a:hover {}
+.socialbox .soarrow {display: none;}
+.socialbox .soarrow:hover {display:inline;}
 
 /* font change */
 body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
