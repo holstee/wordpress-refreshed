@@ -17,7 +17,7 @@ body {background: #F5F5FA;}
 .header-wrapper {display:none;}
 .scroll .slides {background: #F5F5FA;}
 .flex-control-nav {display: none;}
-.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; float: right;width:87%; margin-top:10px;}
+.scroll-excerpt {font-weight: normal; letter-spacing: 0; font-size: 35px; float: right;width:87%; margin-top:0px;}
 .refreshedlogo {width:10%; margin-top: 45px;}
 .refreshedlogo img {width:100%; float: left; margin-right: 15%;}
 .headerlogo {height: 100%}
@@ -26,6 +26,9 @@ body {background: #F5F5FA;}
 #main {width: 80%;}
 #content {width: 70%;}
 #sidebar {width: 25%;}
+
+/* social sidebar button */
+.socialbox ul li {margin-bottom: 15px; padding-bottom: 10px; border-bottom: solid 1px #E6E6E6; min-height: 40px;}
 
 /* font change */
 body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
