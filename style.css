@@ -129,8 +129,9 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
   position: fixed;
   top: 0;
   width: 300px;
+}
 
-  @media only screen and (max-width:767px) {
+@media only screen and (max-width:767px) {
 	
 	body {
 	   font: 13px/22px'Asap', sans-serif !important;
@@ -157,9 +158,6 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 		padding-top: 0px;
 	}
 
-
-
-}
 }
 
 
