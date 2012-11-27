@@ -59,10 +59,10 @@
         <?php } ?>
     </style>
 
-<!-- script for fixed sidebar 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- script for fixed sidebar
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script> -->
 <script>
-$(function () {
+$(document).ready(function(){
   
   var msie6 = $.browser == 'msie' && $.browser.version < 7;
   
@@ -84,7 +84,7 @@ $(function () {
   }  
 });
 </script>
-end script for fixed sidebar -->
+<!--end script for fixed sidebar -->
 
 </head>
 
