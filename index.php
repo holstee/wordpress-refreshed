@@ -229,6 +229,7 @@
 		
 		<!-- grab the sidebar -->
 		<?php get_sidebar(); ?>
+		
 	
 		<!-- grab footer -->
 		<?php get_footer(); ?>
