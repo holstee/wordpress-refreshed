@@ -33,9 +33,9 @@ body {background: #F5F5FA;}
 .socialbox img {float: left;}
 .socialbox p {margin-left: 50px; padding-top: 8px;}
 .socialbox p a {color:#666;}
-.socialbox p a:hover {color: #A6A6BA;}
+.socialbox p a:hover {color: #A6A6BA; text-decoration: none;}
 .socialbox li .soarrow {display: none;}
-.socialbox li:hover .soarrow {display:inline;}
+.socialbox li:hover .soarrow {display:inline; color:#A6A6BA; }
 #navwrap {height: 600px;}
 
 
@@ -109,24 +109,26 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 /* for commet text */
 /* required to avoid jumping */
 #commentWrapper { 
-  left: 450px;
+  /* left: 450px; */
   position: absolute;
   margin-left: 35px;
-  width: 280px;
+  width: 300px;
+
 }
 
 #sidebarfixed {
   position: absolute;
   top: 0;
   /* just used to show how to include the margin in the effect */
-  margin-top: 20px;
-  border-top: 1px solid purple;
-  padding-top: 19px;
+  margin-top: 75px;
+  padding-top: 25px;
+  width: 300px;
 }
 
 #sidebarfixed.fixed {
   position: fixed;
   top: 0;
+  width: 300px;
 }
 
 
