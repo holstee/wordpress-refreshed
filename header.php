@@ -67,7 +67,7 @@ jQuery(document).ready(function( $ ) {
   var msie6 = $.browser == 'msie' && $.browser.version < 7;
   
   if (!msie6) {
-    var top = $('#comment').offset().top - parseFloat($('#comment').css('margin-top').replace(/auto/, 0));
+    var top = $('#sidebarfixed').offset().top - parseFloat($('#sidebarfixed').css('margin-top').replace(/auto/, 0));
     $(window).scroll(function (event) {
       // what the y position of the scroll is
       var y = $(this).scrollTop();
@@ -75,10 +75,10 @@ jQuery(document).ready(function( $ ) {
       // whether that's below the form
       if (y >= top) {
         // if so, ad the fixed class
-        $('#comment').addClass('fixed');
+        $('#sidebarfixed').addClass('fixed');
       } else {
         // otherwise remove it
-        $('#comment').removeClass('fixed');
+        $('#sidebarfixed').removeClass('fixed');
       }
     });
   }  
