@@ -58,7 +58,33 @@
             <?php echo of_get_option('of_theme_css'); ?>
         <?php } ?>
     </style>
-    
+
+<!-- script for fixed sidebar --> 
+<script>
+$(function () {
+  
+  var msie6 = $.browser == 'msie' && $.browser.version < 7;
+  
+  if (!msie6) {
+    var top = $('#sidebar').offset().top - parseFloat($('#sidebar').css('margin-top').replace(/auto/, 0));
+    $(window).scroll(function (event) {
+      // what the y position of the scroll is
+      var y = $(this).scrollTop();
+      
+      // whether that's below the form
+      if (y >= top) {
+        // if so, ad the fixed class
+        $('#sidebar').addClass('fixed');
+      } else {
+        // otherwise remove it
+        $('#sidebar').removeClass('fixed');
+      }
+    });
+  }  
+});
+</script>
+<!-- end script for fixed sidebar -->
+
 </head>
 
 <body <?php body_class(); ?>>
