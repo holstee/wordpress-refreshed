@@ -1,11 +1,10 @@
-
+@import url('../author/media-queries.css');
 
 /* iPhone ----------------------------- */
 
 @media only screen and (max-width:767px) {
 	
 	body {
-	   
 	   font: 13px/22px'Asap', sans-serif !important;
 	}
 
