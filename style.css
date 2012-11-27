@@ -100,13 +100,7 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
 #content .entry-title a:hover {color: #6A6A85;}
 .scroll-excerpt a:hover {color: #C3BEFA;}
 
-
-/* for media screen */
-media="screen"
-media-queries.css:129@media only screen and (max-width: 767px)
-body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
-
-/* for commet text */
+/* sidebar fix */
 /* required to avoid jumping */
 #commentWrapper { 
   /* left: 450px; */
@@ -129,3 +123,47 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
   top: 0;
   width: 300px;
 }
+
+/* for media screen */
+media="screen"
+media-queries.css:129@media only screen and (max-width: 767px)
+body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
+
+@media only screen and (max-width:767px) {
+	
+	body {
+	   font: 13px/22px'Asap', sans-serif !important;
+	}
+
+	#commentWrapper {
+		position: relative;
+		width: 100%;
+		margin-left:0px;
+	}
+	#sidebarfixed.fixed {
+		width: 100%;
+		margin-top: 0px;
+	}
+	.refreshedlogo img {
+		width: 150px;
+		display: block;
+		margin-left: 70px;
+	}
+
+	#sidebarfixed {
+		display: block;
+		position: relative;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+
+	#sidebarfixed.fixed{
+		position: relative;
+	}
+
+
+
+}
+
+
+
