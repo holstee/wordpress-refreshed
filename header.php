@@ -59,7 +59,9 @@
         <?php } ?>
     </style>
 
-<!-- script for fixed sidebar --> 
+<!-- script for fixed sidebar -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+ 
 <script>
 $(document).ready(function () {  
   var top = $('#comment').offset().top - parseFloat($('#comment').css('marginTop').replace(/auto/, 0));
