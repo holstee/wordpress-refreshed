@@ -35,8 +35,8 @@ body {background: #F5F5FA;}
 .socialbox p a {color:#666;}
 .socialbox p a:hover {color: #A6A6BA; text-decoration: none;}
 .socialbox li .soarrow {display: none;}
-.socialbox li:hover .soarrow {display:inline; color:#A6A6BA; }
-#navwrap {height: 600px;}
+.socialbox li:hover .soarrow a {display:inline; color:#A6A6BA; }
+/*#navwrap {height: 600px;} */
 
 
 /* font change */
@@ -113,7 +113,6 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
   position: absolute;
   margin-left: 35px;
   width: 300px;
-
 }
 
 #sidebarfixed {
@@ -130,34 +129,3 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
   top: 0;
   width: 300px;
 }
-
-@media only screen and (max-width:767px) {
-	
-	body {
-	   font: 13px/22px'Asap', sans-serif !important;
-	}
-
-	#commentWrapper {
-		position: relative;
-		width: 100%
-	}
-	#sidebarfixed.fixed {
-		width: 100%;
-		margin-top: 0px;
-	}
-	.refreshedlogo img {
-		width: 150px;
-		display: block;
-		margin-left: 70px;
-	}
-
-	#sidebarfixed {
-		display: block;
-		position: relative;
-		margin-top: 0px;
-		padding-top: 0px;
-	}
-
-}
-
-

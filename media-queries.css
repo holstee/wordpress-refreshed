@@ -10,7 +10,8 @@
 
 	#commentWrapper {
 		position: relative;
-		width: 100%
+		width: 100%;
+		margin-left:0px;
 	}
 	#sidebarfixed.fixed {
 		width: 100%;
@@ -27,6 +28,10 @@
 		position: relative;
 		margin-top: 0px;
 		padding-top: 0px;
+	}
+
+	#sidebarfixed.fixed{
+		position: relative;
 	}
 
 
