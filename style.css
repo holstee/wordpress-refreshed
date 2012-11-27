@@ -115,7 +115,7 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
   width: 280px;
 }
 
-#comment {
+#sidebarfixed {
   position: absolute;
   top: 0;
   /* just used to show how to include the margin in the effect */
@@ -124,7 +124,7 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
   padding-top: 19px;
 }
 
-#comment.fixed {
+#sidebarfixed.fixed {
   position: fixed;
   top: 0;
 }
