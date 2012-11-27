@@ -59,8 +59,8 @@
         <?php } ?>
     </style>
 
-<!-- script for fixed sidebar -->
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>-->
+<!-- script for fixed sidebar 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script>
 $(function () {
   
@@ -84,7 +84,7 @@ $(function () {
   }  
 });
 </script>
-<!-- end script for fixed sidebar -->
+end script for fixed sidebar -->
 
 </head>
 
