@@ -116,12 +116,15 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
   /* just used to show how to include the margin in the effect */
   margin-top: 75px;
   padding-top: 25px;
+  width: 100%;
 
 }
 
 #sidebarfixed.fixed {
   position: fixed;
   top: 0;
+  width: 100%;
+  max-width: 300px;
 
 }
 
@@ -149,9 +152,12 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 
 	.refreshedlogo {
 		margin-top: 20px;
-		margin-bottom: 20px;
 		margin-right: 50%;
 		margin-left: 50%;
+		width: 30%;
+	}
+	.refreshedlogo img {
+	margin-bottom: 20px;
 	}
 
 	#sidebarfixed {
