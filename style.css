@@ -24,8 +24,8 @@ body {background: #F5F5FA;}
 
 /* content */
 #main {width: 80%;}
-#content {width: 70%;}
-#sidebar {width: 25%;}
+#content {max-width: 600px;}
+#sidebar {width: 300px;}
 
 /* social sidebar button */
 .socialbox ul {margin-left: 0 !important}
@@ -105,7 +105,6 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
 #commentWrapper { 
   /* left: 450px; */
   position: absolute;
-  margin-left: 35px;
   width: 300px;
 }
 
@@ -143,11 +142,14 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 	#sidebarfixed.fixed {
 		width: 100%;
 		margin-top: 0px;
+		position: relative;
 	}
+
 	.refreshedlogo img {
-		width: 150px;
-		display: block;
-		margin-left: 70px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-right: 50%;
+		margin-left: 50%;
 	}
 
 	#sidebarfixed {
@@ -156,13 +158,6 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 		margin-top: 0px;
 		padding-top: 0px;
 	}
-
-	#sidebarfixed.fixed{
-		position: relative;
-	}
-
-
-
 }
 
 
