@@ -106,6 +106,27 @@ media="screen"
 media-queries.css:129@media only screen and (max-width: 767px)
 body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 
+/* for commet text */
+/* required to avoid jumping */
+#commentWrapper { 
+  left: 450px;
+  position: absolute;
+  margin-left: 35px;
+  width: 280px;
+}
 
+#comment {
+  position: absolute;
+  top: 0;
+  /* just used to show how to include the margin in the effect */
+  margin-top: 20px;
+  border-top: 1px solid purple;
+  padding-top: 19px;
+}
+
+#comment.fixed {
+  position: fixed;
+  top: 0;
+}
 
 
