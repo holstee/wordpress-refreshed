@@ -62,7 +62,7 @@
 <!-- script for fixed sidebar
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script> -->
 <script>
-$(document).ready(function(){
+jQuery(document).ready(function( $ ) {
   
   var msie6 = $.browser == 'msie' && $.browser.version < 7;
   
