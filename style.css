@@ -107,7 +107,8 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
 #commentWrapper { 
   /* left: 450px; */
   position: absolute;
-  width: 21%;
+  width: 19%;
+  margin-left:2%;
 }
 
 #sidebarfixed {
@@ -124,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
   position: fixed;
   top: 0;
   width: 100%;
-  max-width: 250px;
+  max-width: 220px;
 
 }
 
