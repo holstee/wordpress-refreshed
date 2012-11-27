@@ -61,26 +61,21 @@
 
 <!-- script for fixed sidebar --> 
 <script>
-$(function () {
+$(document).ready(function () {  
+  var top = $('#comment').offset().top - parseFloat($('#comment').css('marginTop').replace(/auto/, 0));
+  $(window).scroll(function (event) {
+    // what the y position of the scroll is
+    var y = $(this).scrollTop();
   
-  var msie6 = $.browser == 'msie' && $.browser.version < 7;
-  
-  if (!msie6) {
-    var top = $('#sidebar').offset().top - parseFloat($('#sidebar').css('margin-top').replace(/auto/, 0));
-    $(window).scroll(function (event) {
-      // what the y position of the scroll is
-      var y = $(this).scrollTop();
-      
-      // whether that's below the form
-      if (y >= top) {
-        // if so, ad the fixed class
-        $('#sidebar').addClass('fixed');
-      } else {
-        // otherwise remove it
-        $('#sidebar').removeClass('fixed');
-      }
-    });
-  }  
+    // whether that's below the form
+    if (y >= top) {
+      // if so, ad the fixed class
+      $('#comment').addClass('fixed');
+    } else {
+      // otherwise remove it
+      $('#comment').removeClass('fixed');
+    }
+  });
 });
 </script>
 <!-- end script for fixed sidebar -->
