@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Asap', sans-serif;}
 .wpcf7 input[type="text"] {font-family: 'Asap', sans-serif;}
 .wpcf7 textarea {font-family: 'Asap', sans-serif;}
 .wpcf7-submit {font-family: 'Asap', sans-serif;}
+#content p {opacity: 0.9;}
 
 /* font title scroll a #687A8A */
 
