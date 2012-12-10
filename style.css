@@ -7,7 +7,6 @@ Template:       author
 
 @import url('../author/style.css');
 
-
 /* background */
 body {background: #F5F5FA;}
 .scroll .slides {background: #F5F5FA;}
@@ -32,10 +31,10 @@ body {background: #F5F5FA;}
 .socialbox ul li {margin-bottom: 15px; border-bottom: solid 1px #E6E6E6; list-style: none;}
 .socialbox img {float: left;}
 .socialbox p {margin-left: 50px; padding-top: 8px;}
-.socialbox p a {color:#666;}
-.socialbox p a:hover {color: #A6A6BA; text-decoration: none;}
-.socialbox li .soarrow {display: none;}
-.socialbox li:hover .soarrow a {display:inline; color:#A6A6BA; }
+.socialbox a {color:#666 !important;}
+.socialbox a:hover {color: #A6A6BA !important; text-decoration: none;}
+.socialbox a .soarrow {display: none;}
+.socialbox a:hover .soarrow {display:inline; color:#A6A6BA !important;}
 /*#navwrap {height: 600px;} */
 
 
@@ -115,11 +114,8 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
 #sidebarfixed {
   position: absolute;
   top: 0;
-  /* just used to show how to include the margin in the effect */
-  margin-top: 75px;
-  padding-top: 25px;
+  margin-top: 100px;
   width: 100%;
-
 }
 
 #sidebarfixed.fixed {
@@ -127,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {color: #5F5F6E;}
   top: 0;
   width: 100%;
   max-width: 220px;
-
+  margin-top:175px;
 }
 
 /* for media screen */
@@ -159,7 +155,7 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 		width: 30%;
 	}
 	.refreshedlogo img {
-	margin-bottom: 20px;
+	   margin-bottom: 20px;
 	}
 
 	#sidebarfixed {
@@ -170,5 +166,39 @@ body{font-family: 'Asap', sans-serif; font:'Asap', sans-serif;}
 	}
 }
 
+a {
+    color:#C3BEFA;
+}
+
+.scroll .flex-control-nav li a.active {
+    background:#C3BEFA;
+}
+
+#sidebar-logo{
+    display:none;
+    position:absolute;
+    top: -130px;
+    left: 50px;
+}
+
+#sidebar-logo img{
+    width:100px;
+}
+
+.comments{
+    border: none;
+    box-shadow: none;
+}
+
+.search-form-input{
+    line-height: normal !important;
+    height: 38px !important;
+}
+
+#header{overflow:hidden;width:100%;position:relative;min-height:120px;margin-top:50px;}
+#header p{margin:0;}
+#header-icon{float:left;position:absolute;top:0;left:0;margin-top:10px;}
+#header-icon img{width:100px;}
+#header-text{font-size:35px;line-height: normal;width: 100%;margin-top:10px;}
 
 

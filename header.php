@@ -28,7 +28,7 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" />
     -->
     <!-- bookmark icon -->
-    <link rel="shortcut icon" href="http://refreshed.is/wp-content/themes/author-child/images/favicon.png" />
+    <link rel="shortcut icon" href="/wp-content/themes/author-child/images/favicon.png" />
     
     <!-- main stylesheet -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
@@ -59,32 +59,10 @@
         <?php } ?>
     </style>
 
-<!-- script for fixed sidebar
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script> -->
-<script>
-jQuery(document).ready(function( $ ) {
-  
-  var msie6 = $.browser == 'msie' && $.browser.version < 7;
-  
-  if (!msie6) {
-    var top = $('#sidebarfixed').offset().top - parseFloat($('#sidebarfixed').css('margin-top').replace(/auto/, 0));
-    $(window).scroll(function (event) {
-      // what the y position of the scroll is
-      var y = $(this).scrollTop();
-      
-      // whether that's below the form
-      if (y >= top) {
-        // if so, ad the fixed class
-        $('#sidebarfixed').addClass('fixed');
-      } else {
-        // otherwise remove it
-        $('#sidebarfixed').removeClass('fixed');
-      }
-    });
-  }  
-});
-</script>
-<!--end script for fixed sidebar -->
+    <script src="/wp-content/themes/author-child/jquery.backtotop.min.js"></script>
+    <script src="/wp-content/themes/author-child/script.js"></script>
+
+
 
 </head>
 
@@ -93,6 +71,9 @@ jQuery(document).ready(function( $ ) {
     <div id="wrapper" class="clearfix">
         
         <div id="main" class="clearfix">
+
+            <?php /* ?>
+
             <div class="header-wrapper clearfix">
                 <!-- grab the logo -->
                 <?php if ( of_get_option('of_logo') ) { ?>
@@ -124,3 +105,40 @@ jQuery(document).ready(function( $ ) {
                     <?php wp_nav_menu(array('theme_location' => 'secondary', 'menu_class' => 'secondary-menu')); ?>
                 </div>
             <?php } ?>
+    
+            <?php */ ?>
+
+
+            <!--    
+            <div class="headerlogo">
+                <div class="refreshedlogo">
+                    <a href="http://refreshed.is" title="Refreshed.is - Thoughts and findings from the family at Holstee"> 
+                        <img src="http://refreshed.is/wp-content/themes/author-child/images/Refreshed_Logo.png" />
+                    </a>
+                </div>
+                <div class="scroll-excerpt">
+                    Thoughts on <a href="http://refreshed.is/tagged/sustainability"
+                    title="Refreshed Sustainability">sustainability</a>, <a
+                    href="http://refreshed.is/tagged/design" title="Refreshed Design">design</a>,
+                    <a href="http://refreshed.is/tagged/travel" title="Refreshed
+                    Travel">travel</a>, <a href="http://refreshed.is/tagged/food" title="Refreshed
+                    Food">food</a> and finding your <a href="http://refreshed.is/tagged/passion"
+                    title="Refreshed Design">passion</a>, from the family at  <a
+                    href="http://holstee.com.com" title="Holstee">Holstee</a>.
+                </div>
+            </div>
+            <hr style="clear:both; border: 0px transparent solid;">
+             -->
+
+            <div id="header">
+                <div style="padding-left:120px;">
+                    <div id="header-icon" class="float">
+                        <a href="http://refreshed.is" title="Refreshed.is - Thoughts and findings from the family at Holstee"><img src="http://refreshed.is/wp-content/themes/author-child/images/Refreshed_Logo.png"></a>
+                    </div>
+                    <div id="header-text">
+                        <p>
+                            Thoughts on <a href="http://refreshed.is/tagged/sustainability" title="Refreshed Sustainability">sustainability</a>, <a href="http://refreshed.is/tagged/design" title="Refreshed Design">design</a>, <a href="http://refreshed.is/tagged/travel" title="Refreshed Travel">travel</a>, <a href="http://refreshed.is/tagged/food" title="Refreshed Food">food</a> and finding your <a href="http://refreshed.is/tagged/passion" title="Refreshed Design">passion</a>, from the family at <a href="http://holstee.com.com" title="Holstee">Holstee</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
