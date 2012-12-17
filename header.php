@@ -137,7 +137,7 @@
                     </div>
                     <div id="header-text">
                         <p>
-                            Thoughts on <a href="http://refreshed.is/category/sustainability" title="Refreshed Sustainability">sustainability</a>, <a href="http://refreshed.is/category/design" title="Refreshed Design">design</a>, <a href="http://refreshed.is/category/travel" title="Refreshed Travel">travel</a>, <a href="http://refreshed.is/category/food" title="Refreshed Food">food</a> and finding your <a href="http://refreshed.is/category/passion" title="Refreshed Design">passion</a>, from the family at <a href="http://holstee.com.com" title="Holstee">Holstee</a>.
+                            Thoughts on <a href="http://refreshed.is/category/sustainability" title="Refreshed Sustainability">sustainability</a>, <a href="http://refreshed.is/category/design" title="Refreshed Design">design</a>, <a href="http://refreshed.is/category/travel" title="Refreshed Travel">travel</a>, <a href="http://refreshed.is/category/food" title="Refreshed Food">food</a> and finding your <a href="http://refreshed.is/category/passion" title="Refreshed Design">passion</a>, from the family at <a href="http://holstee.com target="_blank" title="Holstee">Holstee</a>.
                         </p>
                     </div>
                 </div>
