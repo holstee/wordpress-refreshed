@@ -6,4 +6,4 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=336636466443749";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-href="http://refreshed.is" data-width="600" data-num-posts="2"></div>
+<div class="fb-comments" data-href="<?php the_permalink() ?>" data-width="600" data-num-posts="2"></div>
