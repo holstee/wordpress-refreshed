@@ -109,7 +109,27 @@
 									<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 									
 									<div class="title-meta">
-										<span><!--<?php the_author_link(); ?>--><?php the_author_posts_link(); ?></span> <span><a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a></span> <span><a href="<?php the_permalink(); ?>/#comment-jump" title="<?php the_title(); ?> comments"><?php comments_number(__('No Comments','okay'),__('1 Comment','okay'),__( '% Comments','okay') );?></a></span>
+										
+
+										<span>
+											<!--<?php the_author_link(); ?>-->
+											<?php the_author_posts_link(); ?>
+										</span>
+										<span>
+											<a href="<?php the_permalink(); ?>">
+												<?php echo get_the_date(); ?>
+											</a>
+										</span>
+										<span>
+											<a href="<?php the_permalink(); ?>/#comment-jump" title="<?php the_title(); ?> comments">
+												Comments
+												<?php /* ?> 
+													<div class="fb-comments-count" data-href="/post URL">0</div>
+													<iframe src="http://www.facebook.com/plugins/comments.php?href=<?php the_permalink(); ?>&permalink=1" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:13px;" allowTransparency="true"></iframe> 	
+													<?php comments_number(__('No Comments','okay'),__('1 Comment','okay'),__( '% Comments','okay') );?>
+												<?php */ ?>
+											</a>
+										</span>
 									</div>
 								</div>
 								
