@@ -35,6 +35,12 @@ body {background: #F5F5FA;}
 .socialbox a:hover {color: #A6A6BA !important; text-decoration: none;}
 .socialbox a .soarrow {display: none;}
 .socialbox a:hover .soarrow {display:inline; color:#A6A6BA !important;}
+
+.socialbox span {color:#666 !important;cursor:pointer;}
+.socialbox span:hover {color: #A6A6BA !important; text-decoration: none;}
+.socialbox span .soarrow {display: none;}
+.socialbox span:hover .soarrow {display:inline; color:#A6A6BA !important;}
+
 /*#navwrap {height: 600px;} */
 
 
@@ -202,3 +208,34 @@ a {
 #header-text{font-size:35px;line-height: normal;width: 100%;margin-top:10px;}
 
 
+
+
+#form-wysija-nl-php-1-wysija-to {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 12px;
+font-style: italic;
+font-family: 'Asap', sans-serif;
+border: none;
+float: left;
+width: 100%;
+background: white url(images/search.png) no-repeat 10px 9px;
+padding: 8px 7px 8px 15px;
+border: solid 4px #E4E9EB;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+color: #898E99;
+}
+
+.widget_wysija_cont .wysija-submit{visibility:hidden}
+
+
+.widget_wysija_cont .updated{margin-top:20px !important}
+
+form#form-wysija-nl-php-1 p{height:65px;margin: 0;padding: 0;}
+
+#form-wysija-nl-php-1{height:65px;}
+
+#reggi-wysija{display:none;}
