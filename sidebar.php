@@ -1,6 +1,6 @@
 <div id="sidebar">	
 	<div id="commentWrapper">
-		
+
 		<script>
 
 			$(document).ready(function(){
@@ -41,10 +41,10 @@
 							<?php
 
 								$widgetdata=array (
-									'lists_name' => array (4 => 'Main list'),
+									'lists_name' => array (1 => 'My first list'),
 									'submit' => 'Subscribe!',
 									'success' => 'Check your inbox now to confirm your subscription.',
-									'lists' => array (0 => '4',),
+									'lists' => array (0 => '1',),
 									'widget_id' => 'wysija-nl-php-1',
 								);
 								$widgetNL=new WYSIJA_NL_Widget(1);
