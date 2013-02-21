@@ -1,24 +1,6 @@
 <div id="sidebar">	
 	<div id="commentWrapper">
 
-		<script>
-
-			$(document).ready(function(){
-				$(".search-form-input").val("");
-				$(".search-form-input").attr("placeholder","enter your search, and hit enter");
-				$("#form-wysija-nl-php-1-wysija-to").attr("placeholder","enter your email, and hit enter");
-				$("#reggi-newsletter").click(function(){
-					$("#reggi-wysija").show();
-					$('#form-wysija-nl-php-1-wysija-to').focus();
-				});
-				$("#reggi-newsletter").focusout(function(){
-					$("#reggi-wysija").hide();
-				});
-			});
-		
-		</script>
-
-
 		<?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Sidebar') ) : else : ?>		
 		<?php endif; ?>	
 		
@@ -34,8 +16,8 @@
 				<ul>
 					<li id="reggi-newsletter">
 						<span title="The Weekly Refresh" target="_blank"> 
-							<img src="http://refreshed.is/wp-content/themes/author-child/images/newsletter-icon.png" title="The Weekly Refresh" />
-							<p>The Weekly Refresh <span class="soarrow">&rarr;</span></p>
+							<img src="/wp-content/themes/author-child/images/weekly.png" title="The Weekly Refresh" />
+							<p><span id="clicker">The Weekly Refresh</span> <span class="soarrow">&rarr;</span></p>
 						</span>
 						<div id="reggi-wysija">
 							<?php
@@ -53,30 +35,52 @@
 							?>
 						</div>
 					</li>
+
+					<style>
+						.social-buttons{
+							height:56px !important;
+						}
+						.social-buttons a{
+							display:inline-block;
+							margin-right:15px;
+							width:37px;
+							height:36px;
+						}
+					</style>
+					
 					<li>
+						<a href="/blogs-we-love/" title="Blogs We Love" target="_blank"> 
+							<img src="/wp-content/themes/author-child/images/blogroll.png" title="Subscribe to our Feed" />
+							<p>Blogs We Love <span class="soarrow">&rarr;</span></p>
+						</a>
+					</li>
+					<li>
+						<a href="mailto: refreshedstory@holstee.com " title="I have a story idea for Refreshed!" target="_blank"> 
+							<img src="/wp-content/themes/author-child/images/submit.png" title="Subscribe to our Feed" />
+							<p> Submit A Story <span class="soarrow">&rarr;</span></p>
+						</a>
+					</li>
+
+					<li class="social-buttons">
 						<a href="http://facebook.com/holstee" title="Friend us on Facebook" target="_blank"> 
-							<img src="http://refreshed.is/wp-content/themes/author-child/images/facebook-icon.png" title="Friend us on Facebook" />
-							<p>Friend us on Facebook <span class="soarrow">&rarr;</span></p>
-						</a>		
-					</li>
-					<li>
+							<img src="/wp-content/themes/author-child/images/facebook.png" title="Friend us on Facebook" />
+							<!--<p>Friend us on Facebook <span class="soarrow">&rarr;</span></p>-->
+						</a>
 						<a href="http://twitter.com/holstee" title="Follow us on Twitter" target="_blank"> 
-							<img src="http://refreshed.is/wp-content/themes/author-child/images/twitter-icon.png" title="Follow us on Twitter" />
-							<p>Follow us on Twitter <span class="soarrow">&rarr;</span></p>
+							<img src="/wp-content/themes/author-child/images/twitter.png" title="Follow us on Twitter" />
+							<!--<p>Follow us on Twitter <span class="soarrow">&rarr;</span></p>-->
 						</a>
-					</li>
-					<li>
 						<a href="http://tumblr.refreshed.is" title="Join us on Tumblr" target="_blank"> 
-							<img src="http://refreshed.is/wp-content/themes/author-child/images/tumblr-icon.png" title="Join us on Tumblr" />
-							<p>Join us on Tumblr  <span class="soarrow">&rarr;</span></p>
+							<img src="/wp-content/themes/author-child/images/tumblr.png" title="Join us on Tumblr" />
+							<!--<p>Join us on Tumblr  <span class="soarrow">&rarr;</span></p>-->
 						</a>
-					</li>
-					<li>
 						<a href="http://feeds.feedburner.com/refreshedis" title="Subscribe to our Feed" target="_blank"> 
-							<img src="http://refreshed.is/wp-content/themes/author-child/images/rss-icon.png" title="Subscribe to our Feed" />
-							<p>Subscribe to our Feed <span class="soarrow">&rarr;</span></p>
+							<img src="/wp-content/themes/author-child/images/rss.png" title="Subscribe to our Feed" />
+							<!--<p>Subscribe to our Feed <span class="soarrow">&rarr;</span></p>-->
 						</a>
+						<p> &nbsp; </p>
 					</li>
+
 				</ul>
 			</span>
 		</div>

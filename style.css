@@ -229,6 +229,27 @@ border-radius: 20px;
 color: #898E99;
 }
 
+
+
+#form-wysija-nl-php-2-wysija-to {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 12px;
+font-style: italic;
+font-family: 'Asap', sans-serif;
+border: none;
+float: left;
+width: 100%;
+background: white url(images/search.png) no-repeat 10px 9px;
+padding: 8px 7px 8px 15px;
+border: solid 4px #E4E9EB;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+color: #898E99;
+}
+
 .widget_wysija_cont .wysija-submit{visibility:hidden}
 
 
@@ -237,5 +258,11 @@ color: #898E99;
 form#form-wysija-nl-php-1 p{height:65px;margin: 0;padding: 0;}
 
 #form-wysija-nl-php-1{height:65px;}
+
+
+form#form-wysija-nl-php-2 p{height:65px;margin: 0;padding: 0;}
+
+#form-wysija-nl-php-2{height:65px;}
+
 
 #reggi-wysija{display:none;}
