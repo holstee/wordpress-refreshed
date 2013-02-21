@@ -42,13 +42,9 @@
     }
 
     $(document).ready(function() {
-        $("#form-wysija-nl-php-2-wysija-to").submit(function(event){
-            event.preventDefault();
-        });
-
+        $("#form-wysija-nl-php-2-wysija-to").submit(function(event){event.preventDefault();});
+        if(window.location.hash == "#wysija") $.cookie('modal', true);
         if(typeof $.cookie('modal') == "undefined") squeeze.load_modal();
-        //var height = $('.hidden').height();
-        //window.scroll(0, height);
     });
 
 }(jReggi));
