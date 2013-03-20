@@ -1,8 +1,10 @@
 /*
-Theme Name:     Author Child Theme
-Description:    Make your modifications to Author in this child theme.
-Author:         Dave Radparvar
-Template:       author
+Theme Name: Author Child Theme
+Github Theme URI: https://github.com/incubaker/author-child
+Description: Make your modifications to Author in this child theme.
+Author: Dave Radparvar
+Template: author
+Version: 0.0.1 
 */
 
 @import url('../author/style.css');
