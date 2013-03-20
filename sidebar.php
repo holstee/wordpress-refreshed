@@ -20,22 +20,18 @@
 							<p><span id="clicker">The Weekly Refresh</span> <span class="soarrow">&rarr;</span></p>
 						</span>
 						<div id="reggi-wysija">
-							<?php
-
-								$widgetdata=array (
-									'lists_name' => array (1 => 'My first list'),
-									'submit' => 'Subscribe!',
-									'success' => 'Check your inbox now to confirm your subscription.',
-									'lists' => array (0 => '1',),
-									'widget_id' => 'wysija-nl-php-1',
-								);
-								$widgetNL=new WYSIJA_NL_Widget(1);
-								$subscriptionForm= $widgetNL->widget($widgetdata,$widgetdata);
-								echo $subscriptionForm;
-							?>
+							<div class="widget_wysija_cont">
+								<div id="msg-form-wysija-nl-php-1" class="wysija-msg ajax"></div>
+								<form id="form-wysija-nl-php-1" method="post" action="#wysija" class="widget_wysija form-valid-sub" _lpchecked="1">
+									<p><input type="text" id="form-wysija-nl-php-1-wysija-to" class="wysija-email validate[required,custom[email]]" name="wysija[user][email]" placeholder="enter your email, and hit enter"><span class="wysija-p-firstname abs-req"><label for="form-wysija-nl-php-1-abs-firstname">First name</label><input type="text" id="form-wysija-nl-php-1-abs-firstname" class="validated[abs][req]" name="wysija[user][abs][firstname]"></span><span class="wysija-p-lastname abs-req"><label for="form-wysija-nl-php-1-abs-lastname">Last name</label><input type="text" id="form-wysija-nl-php-1-abs-lastname" class="validated[abs][req]" name="wysija[user][abs][lastname]"></span><span class="wysija-p-email abs-req"><label for="form-wysija-nl-php-1-abs-email">Email</label><input type="text" id="form-wysija-nl-php-1-abs-email" class="validated[abs][email]" name="wysija[user][abs][email]"></span><input type="submit" class="wysija-submit wysija-submit-field" name="submit" value="Subscribe!"></p>
+									<input type="hidden" name="formid" value="form-wysija-nl-php-1">
+									<input type="hidden" name="action" value="save">
+									<input type="hidden" name="wysija[user_list][list_ids]" value="1">
+									<input type="hidden" name="message_success" value="Check your inbox now to confirm your subscription.">
+									<input type="hidden" name="controller" value="subscribers"><input type="hidden" value="1" name="wysija-page"></form>
+							</div>
 						</div>
 					</li>
-
 					<style>
 						.social-buttons{
 							height:56px !important;
